@@ -20,6 +20,10 @@ var _reactDom = require('react-dom');
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+var _PropTypes = require('prop-types');
+
+var _PropTypes2 = _interopRequireDefault(_PropTypes);
+
 var _classnames = require('classnames');
 
 var _classnames2 = _interopRequireDefault(_classnames);
@@ -965,8 +969,8 @@ var Indicator = function (_Component4) {
 }(_react.Component);
 
 Indicator.propTypes = {
-    total: _react.PropTypes.number,
-    current: _react.PropTypes.number
+    total:   _PropTypes2.default.number,
+    current: _PropTypes2.default.number
 };
 
 Indicator.defaultProps = {
