@@ -28,6 +28,7 @@
   "dependencies": {
     "react": "~15.5.4",
     "react-dom": "~15.5.4",
+    "prop-types": "^15.5.8",
     "m-base": "^1.0.0",
     "classnames": "~2.2.3"
   },
